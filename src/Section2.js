@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
 import './Sections.css';
+import Arrowleft from './assets/arrow-left.svg'
+import Arrowright from './assets/arrow-right.svg'
 
+function scrollTop () {
+  window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth'
+  });
+}
 
 class Section2 extends Component {
+
     render(){
         return (
 					<div className="container-fluid section-two px-5">
@@ -12,9 +22,9 @@ class Section2 extends Component {
                   <div className="col-7 mr-4 left-plan d-flex justify-content-center  flex-column">
                     <h2>Plano Indicado</h2>
                     <h3>Recursos ilimitados</h3>
-                    <p>R$ 145</p>
-                    <p className="plan-text">Lorem ipsum dolor sit amet.</p>
-                    <p className="plan-text">Lorem ipsum dolor sit amet.</p>
+                    <p>R$ <strong style={{fontSize: "3rem"}}>145</strong></p>
+                    <p style={{color: "#DBDBDB"}} className="plan-text1 pt-3">Lorem ipsum dolor sit amet.</p>
+                    <p style={{color: "#DBDBDB"}} className="plan-text py-3">Lorem ipsum dolor sit amet.</p>
                     <button type="button" class="btn btn-light">Comprar</button>
                   </div>
                 </div>
@@ -31,14 +41,14 @@ class Section2 extends Component {
               <div className="col-10">
                 <div className="row">
                   <div className="col-4 d-flex align-items-center">
-                    SETA
+                   <img src={Arrowleft} alt=""/>
                   </div>
                   <div className="col-4 d-flex align-items-center justify-content-center flex-column">
                     <h1>Bom teste.</h1>
-                    <button type="button" class="btn btn-primary">Voltar para o topo</button>
+                    <button onClick={scrollTop} id="btn-top" type="button" class="btn btn-primary">Voltar para o topo</button>
                   </div>
                   <div className="col-4 d-flex align-items-center justify-content-end">
-                    SETA
+                  <img src={Arrowright} alt=""/>
                   </div>
                 </div>
               </div>
