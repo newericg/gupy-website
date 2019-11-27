@@ -11,7 +11,7 @@
 }
 
 .head-content {
-    height: 80vh;
+    min-height: 80vh;
     padding-bottom: 70px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .btn-head {
-    width: 50%;
+    min-width: 50%;
     padding: 15px;
     font-weight: bolder;
 }

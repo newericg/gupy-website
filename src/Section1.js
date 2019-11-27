@@ -8,8 +8,8 @@ class Section1 extends Component {
         return (
 					<div className="container-fluid d-flex align-items-center section-one px-5 pb-5">
 						<div className="row d-flex justify-content-center">
-							<div className="col-md-5 d-flex align-items-center px-5 text-left">
-								<h1 className="section1-title">Conheça todos os nossos recursos</h1>
+							<div className="col-md-5 d-flex align-items-center justify-content-center px-5 text-md-left">
+								<h1 className="section1-title pt-md-0 pt-5">Conheça todos os nossos recursos</h1>
 							</div>
 							<div className="col-md-6">
 								<div className="row">

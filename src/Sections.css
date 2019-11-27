@@ -8,10 +8,22 @@
     height: 100%;
 }
 
-.section1-title {
-    font-weight: bolder;
-    font-size: 3rem;
-}
+
+
+@media (min-width: 375px) { 
+
+    .section1-title {
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+ }
+
+@media (min-width: 768px) { 
+
+    .section1-title {
+        font-size: 3rem;
+    }
+ }
 
 .section-two {
     background-color: #EEEEEE;
@@ -28,26 +40,85 @@
     border-top: 1px solid rgb(109, 106, 106);
 }
 
-.left-plan {
-    margin-top: -50px;
-    background-color: white;
-    height: 60vh;
-    border: 1px solid #DBDBDB;
-    border-radius: 10px;
-    box-shadow: -8px 13px 48px -27px rgba(105,105,105,1);
+
+
+.btn-plan {
+    width: 50%;
+    border: 1px solid #177CFA;
+    border-radius: 6px;
 }
 
-.right-plan {
-    margin-top: -68px;
-    background-color: white;
-    height: 64vh;
-    border: 3px solid #187CFA;
-    border-radius: 10px;
-    box-shadow: -8px 13px 48px -27px rgba(105,105,105,1);
+.btn-plan:hover {
+    background-color: #177CFA;
+    color: white;
+}
+
+.btn-plan2 {
+    background-color: #177CFA;
+    color: white;
+    width: 50%;
+    border: 1px solid #177CFA;
+    border-radius: 6px;
+}
+
+.btn-plan2:hover {
+    background-color: rgb(180, 179, 179);
+    color: #177CFA;
+}
+
+.btn-div {
+    width: 100%;
 }
 
 .footer-img {
+    color: white;
+    font-weight: bolder;
     height: 40vh;
     margin-top: 10vh;
-    background-color: blueviolet;
+    margin-bottom: 10vh;
+    background-image: url("./assets/pinkforest.jpg");
+    background-position: center;
 }
+
+@media (min-width: 375px) { 
+
+    .left-plan {
+        margin-top: 40px;
+        background-color: white;
+        height: 60vh;
+        border: 1px solid #DBDBDB;
+        border-radius: 10px;
+        box-shadow: -8px 13px 48px -27px rgba(105,105,105,1);
+    }
+    
+    .right-plan {
+        margin-top: 40px;
+        background-color: white;
+        height: 64vh;
+        border: 3px solid #187CFA;
+        border-radius: 10px;
+        box-shadow: -8px 13px 48px -27px rgba(105,105,105,1);
+    }
+
+ }
+
+ @media (min-width: 768px) { 
+    .left-plan {
+        margin-top: -50px;
+        background-color: white;
+        height: 60vh;
+        border: 1px solid #DBDBDB;
+        border-radius: 10px;
+        box-shadow: -8px 13px 48px -27px rgba(105,105,105,1);
+    }
+    
+    .right-plan {
+        margin-top: -68px;
+        background-color: white;
+        height: 64vh;
+        border: 3px solid #187CFA;
+        border-radius: 10px;
+        box-shadow: -8px 13px 48px -27px rgba(105,105,105,1);
+    }
+
+  }
