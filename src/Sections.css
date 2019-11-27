@@ -1,0 +1,49 @@
+.section-one {
+    background-color: white;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.section-one .row {
+    height: 100%;
+}
+
+.section1-title {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.section-two {
+    background-color: #EEEEEE;
+    width: 100%;
+    min-height: 120vh;
+}
+
+.plan-text {
+    border-top: 1px solid rgb(109, 106, 106);
+    border-bottom: 1px solid rgb(109, 106, 106);;
+}
+
+.left-plan {
+    margin-top: -50px;
+    background-color: white;
+    height: 60vh;
+    border: 1px solid #DBDBDB;
+    border-radius: 10px;
+    box-shadow: -8px 13px 48px -27px rgba(105,105,105,1);
+}
+
+.right-plan {
+    margin-top: -68px;
+    background-color: white;
+    height: 64vh;
+    border: 3px solid #187CFA;
+    border-radius: 10px;
+    box-shadow: -8px 13px 48px -27px rgba(105,105,105,1);
+}
+
+.footer-img {
+    height: 40vh;
+    margin-top: 10vh;
+    background-color: blueviolet;
+}

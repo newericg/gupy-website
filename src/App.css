@@ -1,7 +1,8 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+:root {
+  --main: #3EB6F0;
 }
