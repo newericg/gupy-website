@@ -8,8 +8,6 @@
     height: 100%;
 }
 
-
-
 @media (min-width: 375px) { 
 
     .section1-title {
@@ -73,7 +71,7 @@
 .footer-img {
     color: white;
     font-weight: bolder;
-    height: 40vh;
+    height: 50vh;
     margin-top: 10vh;
     margin-bottom: 10vh;
     background-image: url("./assets/pinkforest.jpg");

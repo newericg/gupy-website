@@ -33,12 +33,14 @@
     min-width: 50%;
     padding: 15px;
     font-weight: bolder;
+    box-shadow: -8px 13px 48px -27px rgb(83, 83, 83);
 }
 
 .head-right {
     background-color: white;
     height: 60vh;
     border-radius: 5px;
+    box-shadow: -8px 13px 48px -27px rgb(82, 81, 81);
 }
 
 .btn-send {
@@ -46,14 +48,45 @@
     width: 90%;
 }
 
-.form-input {
+.form-input1 {
     border: .5px solid black;
     border-radius: 5px;
     height: 50px;
     width: 90%;
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
-.form-input::placeholder {
-    color: black;
+.form-input1::placeholder {
+    padding-left: 30px;
+    color: rgb(112, 112, 112);
+    background: url(./assets/user.svg) no-repeat left center;
+
+}
+
+.form-input2 {
+    border: .5px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 90%;
+    padding-left: 15px;
+}
+
+.form-input2::placeholder {
+    padding-left: 30px;
+    color: rgb(112, 112, 112);
+    background: url(./assets/email.svg) no-repeat left center;
+}
+
+.form-input3 {
+    border: .5px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 90%;
+    padding-left: 15px;
+}
+
+.form-input3::placeholder {
+    padding-left: 30px;
+    color: rgb(112, 112, 112);
+    background: url(./assets/phone.svg) no-repeat left center;
 }

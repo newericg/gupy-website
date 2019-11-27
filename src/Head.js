@@ -19,18 +19,18 @@ class Navbar extends Component {
 					<div className="col-12 col-sm-8 col-md-6">
 						<div className="row d-flex justify-content-center align-items-center">
 							<div className="col-10 col-md-6 head-right">
-								<div className="row d-flex justify-content-center py-4">
-									<div className="col-12">
-										<h3>Cadastre sua imobiliária</h3>
+								<div className="row d-flex justify-content-center py-4 px-1">
+									<div className="col-12 pt-2">
+										<h3 style={{fontWeight:"bold"}}>Cadastre sua imobiliária</h3>
 									</div>
 									<div className="col-12">
-										<input className="form-input" type="text" placeholder="Nome"/>
+										<input className="form-input1" type="text" placeholder="Nome"/>
 									</div>
 									<div className="col-12">
-										<input className="form-input" type="text" placeholder="Email"/>
+										<input className="form-input2" type="text" placeholder="Email"/>
 									</div>
 									<div className="col-12">
-										<input className="form-input" type="text" placeholder="Telefone"/>
+										<input className="form-input3" type="text" placeholder="Telefone"/>
 									</div>
 									<div className="col-12 d-flex justify-content-center">
 										<button type="button" class="btn-send btn btn-primary">Enviar</button>
