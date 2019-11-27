@@ -23,3 +23,8 @@
     border: 1px solid white;
     border-radius: 5px;
 }
+
+.buy-link:hover {
+    background-color: white;
+    color: #3EB6F0;
+}
